@@ -1,0 +1,23 @@
+// instala os pacotes que transpilam código typescript em javascript
+$ npm install ts-node typescript -D
+
+// executa o script ts-node que faz a transpilação (faz o mesmo que ./node_modules/.bin/ts-node src/server.ts)
+$ npx ts-node src/server.ts
+
+// cria o arquivo de configuração do typescript
+$ npx tsc --init
+
+// instala o pacote que faz o hot reload
+$ npm install -D ts-node-dev
+
+// executa o script que faz o hot reload
+$ npx ts-node-dev src/server.ts
+
+// script que simplifica a execução do script que faz o hot reload
+# package.json
+...
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev src/server.ts"
+  },
+...
