@@ -105,3 +105,5 @@ $ npm install -g npm@latest
 
 // executa as migrations no knex
 $ npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+
+1:13:00
