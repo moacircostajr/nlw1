@@ -21,3 +21,6 @@ $ npx ts-node-dev src/server.ts
     "dev": "ts-node-dev src/server.ts"
   },
 ...
+
+// cria uma nova aplicação com ReactJs
+$ npx create-react-app web --template=typescript
