@@ -93,3 +93,12 @@ app.post('/users', (request, response) => {
 })
 
 app.listen(3333)
+
+// instala pacote knex para dar suporte a múltiplos bancos de dados
+$ npm install knex
+
+// instala pacote de banco de dados sqlite
+$ npm install sqlite3
+
+// atualiza npm
+$ npm install -g npm@latest
