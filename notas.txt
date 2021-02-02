@@ -102,3 +102,6 @@ $ npm install sqlite3
 
 // atualiza npm
 $ npm install -g npm@latest
+
+// executa as migrations no knex
+$ npx knex migrate:latest --knexfile knexfile.ts migrate:latest
