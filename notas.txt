@@ -24,3 +24,20 @@ $ npx ts-node-dev src/server.ts
 
 // cria uma nova aplicação com ReactJs
 $ npx create-react-app web --template=typescript
+
+// exemplo de requisições rest para uso com o VSCODE REST Client
+GET https://example.com/comments/1 HTTP/1.1
+
+###
+
+GET https://example.com/topics/1 HTTP/1.1
+
+###
+
+POST https://example.com/comments HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
