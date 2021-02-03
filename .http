@@ -44,7 +44,7 @@ Content-Type: application/json
   "city": "Rio do Sul",
   "uf": "SC",
   "items": [
-    1, 2, 6
+    1, 2, 9
   ]
 }
 
