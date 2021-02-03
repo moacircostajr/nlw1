@@ -44,8 +44,12 @@ Content-Type: application/json
   "city": "Rio do Sul",
   "uf": "SC",
   "items": [
-    1, 2, 9
+    1, 2, 6
   ]
 }
+
+###
+
+GET http://localhost:3333/points/1 HTTP/1.1
 
 ###
