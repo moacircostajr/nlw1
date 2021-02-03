@@ -31,3 +31,21 @@ Content-Type: application/json
 GET http://localhost:3333/items HTTP/1.1
 
 ###
+
+POST http://localhost:3333/points HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Mercado Imperatriz",
+  "email": "contato@imperatriz.com.br",
+  "whatsapp": "29384753",
+  "latitude": -46.29034875,
+  "longitude": -35.39485787,
+  "city": "Rio do Sul",
+  "uf": "SC",
+  "items": [
+    1, 2, 6
+  ]
+}
+
+###
