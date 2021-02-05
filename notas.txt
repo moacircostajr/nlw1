@@ -1,3 +1,5 @@
+////////// BACKEND //////////
+
 // instala os pacotes que transpilam código typescript em javascript
 $ npm install ts-node typescript -D
 
@@ -112,3 +114,6 @@ DELETE FROM points;
 
 select * from points;
 select * from point_items;
+
+////////// FRONTEND //////////
+
