@@ -1,4 +1,4 @@
-////////// BACKEND //////////
+////////// BACKEND (node v10.13.0 (npm v6.4.1)) //////////
 
 // instala os pacotes que transpilam código typescript em javascript
 $ npm install ts-node typescript -D
@@ -115,5 +115,5 @@ DELETE FROM points;
 select * from points;
 select * from point_items;
 
-////////// FRONTEND //////////
+////////// FRONTEND (node v12.20.0 (npm v6.14.11)) //////////
 
