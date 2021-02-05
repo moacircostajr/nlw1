@@ -36,7 +36,7 @@ POST http://localhost:3333/points HTTP/1.1
 Content-Type: application/json
 
 {
-  "name": "Mercado Imperatriz",
+  "name": "Mercado do Seu Zé",
   "email": "contato@imperatriz.com.br",
   "whatsapp": "29384753",
   "latitude": -46.29034875,
@@ -50,6 +50,10 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/points/1 HTTP/1.1
+GET http://localhost:3333/points/2 HTTP/1.1
+
+###
+
+GET http://localhost:3333/points?city=Rio%20do%20Sul&uf=SC&items=6 HTTP/1.1
 
 ###
