@@ -54,6 +54,7 @@ GET http://localhost:3333/points/2 HTTP/1.1
 
 ###
 
-GET http://localhost:3333/points?city=Rio%20do%20Sul&uf=SC&items=6 HTTP/1.1
+GET http://localhost:3333/points?city=Amontada&uf=CE&items=1 HTTP/1.1
 
 ###
+
